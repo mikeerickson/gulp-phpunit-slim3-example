@@ -1,18 +1,17 @@
-# Slim Framework 3 Skeleton Application
+# Slim Framework 3 PHPUnit Application
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
-
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+Simple Test Application for testing PHPUNit w/ gulp-phpunit
 
 ## Install the Application
 
-Run this command from the directory in which you want to install your new Slim Framework application.
+1. Clone this repo
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+2. RUn `composer install` to install all PHP dependencies
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+3. Run `npm install` to install gulp and gulp-phpunit
 
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
+4. Run test gask `gulp phpunit`
 
-That's it! Now go build something cool.
+
+Mike Erickson
+codedungeon@gmail.com

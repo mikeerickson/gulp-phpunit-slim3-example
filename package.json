@@ -1,0 +1,23 @@
+{
+  "name": "phpunit-test",
+  "version": "0.0.1",
+  "description": "Simple Slim3 Framework Testing PHPUnit w/ gulp-phpunit",
+  "main": "public/index.php",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "keywords": [
+    "gulp",
+    "phpunit",
+    "slim3"
+  ],
+  "author": "Mike Erickson <codedungeon@gmail.com> (https://github.com/mikeerickson)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-phpunit": "0.11.3"
+  }
+}

@@ -6,7 +6,7 @@ Simple Test Application for testing PHPUNit w/ gulp-phpunit
 
 1. Clone this repo
 
-2. RUn `composer install` to install all PHP dependencies
+2. Run `composer install` to install all PHP dependencies
 
 3. Run `npm install` to install gulp and gulp-phpunit
 
